@@ -222,8 +222,7 @@
     text-align: center;
     gap: 20px;
   }
-  .online-edu__head h6 {
-  }
+ 
 }
 @media all and (max-width: 450px) {
   .main-online__edu {
