@@ -55,31 +55,31 @@ footer {
   letter-spacing: 0.2px;
 }
 
-.footer .get-intouch > nav .footer-icons{
-    display: flex;
-justify-content: flex-start;
-align-items: center;
-gap: 20px;
-color: var(--primary-color);
-
+.footer .get-intouch > nav .footer-icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  color: var(--primary-color);
 }
-.footer-icons i{
-font-size: 1.2rem;
-flex-shrink: 0;
+.footer-icons i {
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+@media all and (max-width: 600px) {
+  .footer {
+    justify-content: center;
+  }
 }
 
-@media all and (max-width: 450px){
-footer{
+@media all and (max-width: 450px) {
+  footer {
     padding: 0 40px;
-    
-}
-.footer{
+  }
+  .footer {
     align-items: center;
     justify-content: center;
     /* background: red; */
     gap: 50px;
-}
-.footer .get-intouch{
-    /* background: red; */
-}
+  }
 }
